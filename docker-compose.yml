@@ -1,0 +1,12 @@
+version: "2.4"
+
+services:
+  node:
+    container_name: node-test-task
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    mem_limit: 512m
+    volumes:
+      - .:/usr/src/app
+    command: npm run start

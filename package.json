@@ -1,0 +1,21 @@
+{
+  "name": "tages-test-task",
+  "version": "1.0.0",
+  "description": "test task Sizov",
+  "main": "index.js",
+  "engines": {
+    "node": "20.11.0",
+    "npm": "10.3.0"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4",
+    "ts-node": "^10.9.2"
+  }
+}
